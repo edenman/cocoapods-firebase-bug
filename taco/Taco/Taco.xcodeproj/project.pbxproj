@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FF424DDA68F538BAECF5BDC /* Pods_TacoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E956F933307FF01A5D29B0EC /* Pods_TacoTests.framework */; };
+		71DD2FD7212CC29E002EDFC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD2FD6212CC29E002EDFC8 /* AppDelegate.swift */; };
+		71DD2FD9212CC29E002EDFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD2FD8212CC29E002EDFC8 /* ViewController.swift */; };
+		71DD2FDC212CC29E002EDFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DD2FDA212CC29E002EDFC8 /* Main.storyboard */; };
+		71DD2FDE212CC29F002EDFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DD2FDD212CC29F002EDFC8 /* Assets.xcassets */; };
+		71DD2FE1212CC29F002EDFC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71DD2FDF212CC29F002EDFC8 /* LaunchScreen.storyboard */; };
+		71DD2FEC212CC29F002EDFC8 /* TacoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DD2FEB212CC29F002EDFC8 /* TacoTests.swift */; };
+		C9E7E23901BCF362794854A7 /* Pods_Taco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19C1BA7565D6447DDAC08CB /* Pods_Taco.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71DD2FE8212CC29F002EDFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71DD2FCB212CC29E002EDFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71DD2FD2212CC29E002EDFC8;
+			remoteInfo = Taco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B8832E01DBE9347292033E3 /* Pods-Taco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taco.debug.xcconfig"; path = "Target Support Files/Pods-Taco/Pods-Taco.debug.xcconfig"; sourceTree = "<group>"; };
+		572CA2DF5F65FEB30CDD269C /* Pods-Taco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taco.release.xcconfig"; path = "Target Support Files/Pods-Taco/Pods-Taco.release.xcconfig"; sourceTree = "<group>"; };
+		71DD2FD3212CC29E002EDFC8 /* Taco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DD2FD6212CC29E002EDFC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71DD2FD8212CC29E002EDFC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71DD2FDB212CC29E002EDFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71DD2FDD212CC29F002EDFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71DD2FE0212CC29F002EDFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71DD2FE2212CC29F002EDFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71DD2FE7212CC29F002EDFC8 /* TacoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DD2FEB212CC29F002EDFC8 /* TacoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoTests.swift; sourceTree = "<group>"; };
+		71DD2FED212CC29F002EDFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEA5060EC4EB6794C609A91 /* Pods-TacoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TacoTests.release.xcconfig"; path = "Target Support Files/Pods-TacoTests/Pods-TacoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0A91CB61B1D1258BC642197 /* Pods-TacoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TacoTests.debug.xcconfig"; path = "Target Support Files/Pods-TacoTests/Pods-TacoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E956F933307FF01A5D29B0EC /* Pods_TacoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TacoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19C1BA7565D6447DDAC08CB /* Pods_Taco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71DD2FD0212CC29E002EDFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E7E23901BCF362794854A7 /* Pods_Taco.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DD2FE4212CC29F002EDFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF424DDA68F538BAECF5BDC /* Pods_TacoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247FF711DA176C69A5B1A702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19C1BA7565D6447DDAC08CB /* Pods_Taco.framework */,
+				E956F933307FF01A5D29B0EC /* Pods_TacoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B25B1D3E8369B40EB51E41C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B8832E01DBE9347292033E3 /* Pods-Taco.debug.xcconfig */,
+				572CA2DF5F65FEB30CDD269C /* Pods-Taco.release.xcconfig */,
+				E0A91CB61B1D1258BC642197 /* Pods-TacoTests.debug.xcconfig */,
+				DAEA5060EC4EB6794C609A91 /* Pods-TacoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+		71DD2FCA212CC29E002EDFC8 = {
+			isa = PBXGroup;
+			children = (
+				71DD2FD5212CC29E002EDFC8 /* Taco */,
+				71DD2FEA212CC29F002EDFC8 /* TacoTests */,
+				71DD2FD4212CC29E002EDFC8 /* Products */,
+				6B25B1D3E8369B40EB51E41C /* Pods */,
+				247FF711DA176C69A5B1A702 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71DD2FD4212CC29E002EDFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71DD2FD3212CC29E002EDFC8 /* Taco.app */,
+				71DD2FE7212CC29F002EDFC8 /* TacoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71DD2FD5212CC29E002EDFC8 /* Taco */ = {
+			isa = PBXGroup;
+			children = (
+				71DD2FD6212CC29E002EDFC8 /* AppDelegate.swift */,
+				71DD2FD8212CC29E002EDFC8 /* ViewController.swift */,
+				71DD2FDA212CC29E002EDFC8 /* Main.storyboard */,
+				71DD2FDD212CC29F002EDFC8 /* Assets.xcassets */,
+				71DD2FDF212CC29F002EDFC8 /* LaunchScreen.storyboard */,
+				71DD2FE2212CC29F002EDFC8 /* Info.plist */,
+			);
+			path = Taco;
+			sourceTree = "<group>";
+		};
+		71DD2FEA212CC29F002EDFC8 /* TacoTests */ = {
+			isa = PBXGroup;
+			children = (
+				71DD2FEB212CC29F002EDFC8 /* TacoTests.swift */,
+				71DD2FED212CC29F002EDFC8 /* Info.plist */,
+			);
+			path = TacoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71DD2FD2212CC29E002EDFC8 /* Taco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DD2FF0212CC29F002EDFC8 /* Build configuration list for PBXNativeTarget "Taco" */;
+			buildPhases = (
+				BDED39B505D929E405026391 /* [CP] Check Pods Manifest.lock */,
+				71DD2FCF212CC29E002EDFC8 /* Sources */,
+				71DD2FD0212CC29E002EDFC8 /* Frameworks */,
+				71DD2FD1212CC29E002EDFC8 /* Resources */,
+				34E32C4F7BB4AEF7ED14FA23 /* [CP] Embed Pods Frameworks */,
+				32CDCE22F0EB4E5EF967F229 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taco;
+			productName = Taco;
+			productReference = 71DD2FD3212CC29E002EDFC8 /* Taco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71DD2FE6212CC29F002EDFC8 /* TacoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71DD2FF3212CC29F002EDFC8 /* Build configuration list for PBXNativeTarget "TacoTests" */;
+			buildPhases = (
+				DE3AE5710E165F93F0CCF6A4 /* [CP] Check Pods Manifest.lock */,
+				71DD2FE3212CC29F002EDFC8 /* Sources */,
+				71DD2FE4212CC29F002EDFC8 /* Frameworks */,
+				71DD2FE5212CC29F002EDFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71DD2FE9212CC29F002EDFC8 /* PBXTargetDependency */,
+			);
+			name = TacoTests;
+			productName = TacoTests;
+			productReference = 71DD2FE7212CC29F002EDFC8 /* TacoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71DD2FCB212CC29E002EDFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Coffee Train Labs";
+				TargetAttributes = {
+					71DD2FD2212CC29E002EDFC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					71DD2FE6212CC29F002EDFC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 71DD2FD2212CC29E002EDFC8;
+					};
+				};
+			};
+			buildConfigurationList = 71DD2FCE212CC29E002EDFC8 /* Build configuration list for PBXProject "Taco" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71DD2FCA212CC29E002EDFC8;
+			productRefGroup = 71DD2FD4212CC29E002EDFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71DD2FD2212CC29E002EDFC8 /* Taco */,
+				71DD2FE6212CC29F002EDFC8 /* TacoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71DD2FD1212CC29E002EDFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DD2FE1212CC29F002EDFC8 /* LaunchScreen.storyboard in Resources */,
+				71DD2FDE212CC29F002EDFC8 /* Assets.xcassets in Resources */,
+				71DD2FDC212CC29E002EDFC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DD2FE5212CC29F002EDFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32CDCE22F0EB4E5EF967F229 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taco/Pods-Taco-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taco/Pods-Taco-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E32C4F7BB4AEF7ED14FA23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taco/Pods-Taco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Branch/Branch.framework",
+				"${BUILT_PRODUCTS_DIR}/Bugsnag/Bugsnag.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/EmitterKit/EmitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/KMPlaceholderTextView/KMPlaceholderTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/LogglyLogger-CocoaLumberjack/LogglyLogger_CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/RSKImageCropper/RSKImageCropper.framework",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-17/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Sift/Sift.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/libPusher/Pusher.framework",
+				"${BUILT_PRODUCTS_DIR}/markymark/markymark.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Branch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsnag.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KMPlaceholderTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LogglyLogger_CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSKImageCropper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pusher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/markymark.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taco/Pods-Taco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDED39B505D929E405026391 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3AE5710E165F93F0CCF6A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TacoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71DD2FCF212CC29E002EDFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DD2FD9212CC29E002EDFC8 /* ViewController.swift in Sources */,
+				71DD2FD7212CC29E002EDFC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DD2FE3212CC29F002EDFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DD2FEC212CC29F002EDFC8 /* TacoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71DD2FE9212CC29F002EDFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71DD2FD2212CC29E002EDFC8 /* Taco */;
+			targetProxy = 71DD2FE8212CC29F002EDFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71DD2FDA212CC29E002EDFC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71DD2FDB212CC29E002EDFC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71DD2FDF212CC29F002EDFC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71DD2FE0212CC29F002EDFC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71DD2FEE212CC29F002EDFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71DD2FEF212CC29F002EDFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71DD2FF1212CC29F002EDFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B8832E01DBE9347292033E3 /* Pods-Taco.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99K375NN6J;
+				INFOPLIST_FILE = Taco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.coffeetrain.Taco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71DD2FF2212CC29F002EDFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572CA2DF5F65FEB30CDD269C /* Pods-Taco.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99K375NN6J;
+				INFOPLIST_FILE = Taco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.coffeetrain.Taco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71DD2FF4212CC29F002EDFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A91CB61B1D1258BC642197 /* Pods-TacoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99K375NN6J;
+				INFOPLIST_FILE = TacoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.coffeetrain.TacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taco.app/Taco";
+			};
+			name = Debug;
+		};
+		71DD2FF5212CC29F002EDFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAEA5060EC4EB6794C609A91 /* Pods-TacoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99K375NN6J;
+				INFOPLIST_FILE = TacoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.coffeetrain.TacoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taco.app/Taco";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71DD2FCE212CC29E002EDFC8 /* Build configuration list for PBXProject "Taco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DD2FEE212CC29F002EDFC8 /* Debug */,
+				71DD2FEF212CC29F002EDFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DD2FF0212CC29F002EDFC8 /* Build configuration list for PBXNativeTarget "Taco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DD2FF1212CC29F002EDFC8 /* Debug */,
+				71DD2FF2212CC29F002EDFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71DD2FF3212CC29F002EDFC8 /* Build configuration list for PBXNativeTarget "TacoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DD2FF4212CC29F002EDFC8 /* Debug */,
+				71DD2FF5212CC29F002EDFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71DD2FCB212CC29E002EDFC8 /* Project object */;
+}
